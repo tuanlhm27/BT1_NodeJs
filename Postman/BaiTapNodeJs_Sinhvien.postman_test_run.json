@@ -1,0 +1,106 @@
+{
+	"id": "45d98ea3-713a-422d-83a9-1d7ec3989159",
+	"name": "BaiTap2",
+	"timestamp": "2021-10-10T19:34:43.761Z",
+	"collection_id": "17852057-33ba06f7-4440-4e06-8c3e-22d2ca9c0751",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c1a92534-9b6d-4d64-9045-93de07c7f703",
+			"name": "http://localhost:3000/v1/students",
+			"url": "http://localhost:3000/v1/students",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				297
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ed99c14a-47d7-49ba-b31c-498e88461517",
+			"name": "http://localhost:3000/v1/students",
+			"url": "http://localhost:3000/v1/students",
+			"time": 272,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				272
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b3ad3dcd-52ca-48d4-b094-0d1ec2bd36c4",
+			"name": "http://localhost:3000/v1/students/6163317e53948d440ce491dc",
+			"url": "http://localhost:3000/v1/students/6163317e53948d440ce491dc",
+			"time": 512,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				512
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1c897cd5-3eed-472a-8f49-ee26486f4026",
+			"name": "http://localhost:3000/v1/students/6163316b53948d440ce491da",
+			"url": "http://localhost:3000/v1/students/6163316b53948d440ce491da",
+			"time": 278,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				278
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1359,
+	"collection": {
+		"requests": [
+			{
+				"id": "c1a92534-9b6d-4d64-9045-93de07c7f703",
+				"method": "GET"
+			},
+			{
+				"id": "ed99c14a-47d7-49ba-b31c-498e88461517",
+				"method": "POST"
+			},
+			{
+				"id": "b3ad3dcd-52ca-48d4-b094-0d1ec2bd36c4",
+				"method": "PATCH"
+			},
+			{
+				"id": "1c897cd5-3eed-472a-8f49-ee26486f4026",
+				"method": "DELETE"
+			}
+		]
+	}
+}
